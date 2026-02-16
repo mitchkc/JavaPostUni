@@ -1,0 +1,11 @@
+package Practical1;/****  
+* Created by: Michael Connolly 
+* Created on: 30/04/2025 
+* Updated on:
+* UPDATE PROGRAM DESCRIPTION HERE
+****/public class MethodOverloading 
+{
+   public static void main (String [] args)
+   {
+   }//main
+}//class

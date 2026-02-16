@@ -1,0 +1,64 @@
+package Car;
+
+/****
+ * Created by: Michael Connolly
+ * Created on: 29/04/2025
+ * Updated on:
+ * UPDATE PROGRAM DESCRIPTION HERE
+ ****/
+public class Car {
+
+   private String colour;
+   private String regNum;
+   private int noOfDoors;
+   private boolean hasCD;
+
+   public Car () {   //default constructor
+
+   }
+   public Car (String carColour, String reg, int doors, boolean CD) {   //constructor
+      colour = carColour;
+      regNum = reg;
+      noOfDoors = doors;
+      hasCD = CD;
+   }
+
+   public String getColour() {   //getter method
+      return colour;
+   }
+   public void setColour(String carColour){  //setter method
+      colour = carColour;
+   }
+   public String getRegNum() {
+      return regNum;
+   }
+   public void setRegNum(String reg){
+      regNum = reg;
+   }
+   public int getNoOfDoors() {
+      return noOfDoors;
+   }
+   public void setNoOfDoors (int doors) {
+      noOfDoors = doors;
+   }
+   public boolean getHasCD() {
+      return hasCD;
+   }
+   public void setHasCD (boolean CdPlayer){
+      hasCD = CdPlayer;
+   }
+
+   public void printCarDetails() {
+      System.out.println("Car Details: ");
+      System.out.println("Car colour = " + colour);
+      System.out.println("Car reg = " + regNum);
+      System.out.println("Car has " + noOfDoors + " doors");
+      if(hasCD){
+         System.out.println("Car has a CD player");
+      }
+      else{
+         System.out.println("Car does not have a CD player");
+      }
+   }
+
+}//class
