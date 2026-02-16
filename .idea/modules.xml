@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Java3Recap/Java3Recap.iml" filepath="$PROJECT_DIR$/Java3Recap/Java3Recap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaChalls/JavaChalls.iml" filepath="$PROJECT_DIR$/JavaChalls/JavaChalls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaReposPostU.iml" filepath="$PROJECT_DIR$/.idea/JavaReposPostU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaRevision/JavaRevision.iml" filepath="$PROJECT_DIR$/JavaRevision/JavaRevision.iml" />
+    </modules>
+  </component>
+</project>

@@ -6,10 +6,18 @@ package Practical2.Company;
  * Updated on:
  * UPDATE PROGRAM DESCRIPTION HERE
  ****/
-public class Company {
+public class Employee {
 
-   public class Employee () {
-      
+   private String number;
+   private String name;
+
+   public Employee () {}   // default constructor
+   public Employee (String num, String theirName) {
+      number = num;
+      name = theirName;
    }
+   public void setName (String theirName) {  name = theirName; }
+   public String getNumber () { return number; }
+   public String getName () { return name; }
 
 }//class

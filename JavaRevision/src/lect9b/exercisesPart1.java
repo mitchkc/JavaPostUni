@@ -1,4 +1,4 @@
-package lect10a;
+package lect9b;
 import java.util.Scanner;
 /****
  * Created by: Michael Connolly
@@ -110,6 +110,6 @@ public class exercisesPart1 {
 
 
       // ***** COMMISSION *****
-      
+
    }//main
 }//class

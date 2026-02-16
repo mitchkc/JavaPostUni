@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Updated on:
  * UPDATE PROGRAM DESCRIPTION HERE
  ****/
-public class arrays2 {
+public class q2 {
    public static void main(String[] args) {
       Scanner kb = new Scanner(System.in);
 
@@ -66,8 +66,9 @@ public class arrays2 {
          System.out.println("\t\t" + averageStud[row] + "\t" + grade[row]);
       }
       System.out.println("Module Average\t");
+      System.out.print("\t\t\t");
       for(int i = 0; i< 3; i++){
-         System.out.print("\t\t" + averageMod[i] + "\t");
+         System.out.print("\t" + averageMod[i] + "\t");
       }
 
    }//main
